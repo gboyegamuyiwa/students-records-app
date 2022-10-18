@@ -1,0 +1,119 @@
+body {
+    background: #eee;
+}
+
+.text {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+
+#createNew {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    background: #00ac96;
+    color: #fff;
+    border: 1px solid #00ac96;
+    border-radius: 25px;
+    padding: 8px 10px;
+}
+
+#createNew:hover {
+    background: none;
+    color: #00ac96;
+}
+
+#tableID thead,
+#tableID th  {
+    text-align: center;
+    background: #00ac96;
+    color: #fff;
+}
+
+#tableID tbody,
+#tableID tr {
+    text-align: center;
+}
+
+table tbody .options i {
+    cursor: pointer;
+    color: #00ac96 !important;
+}
+
+.input-group-prepend i {
+    font-size: 32px;
+}
+
+input[type=text] {
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 8px 0px;
+}
+
+.custom-select {
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 8px 0px;
+    border: 2px solid #00ac96;
+}
+
+.custom-select option {
+    background: #00ac96;
+    color: #fff;
+}
+
+button[type=submit] {
+    background-color: #00ac96 !important;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 0px;
+    border: 1px solid #00ac96;
+}
+
+button[type=submit]:hover {
+    background: none !important;
+    color: #00ac96 !important;
+}
+
+::placeholder {
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 15px;
+    padding-left: 15px;
+}
+::-ms-input-placeholder {
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+#msgFullname,
+#msgStudent,
+#msgGrade,
+#msgSex {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+}
